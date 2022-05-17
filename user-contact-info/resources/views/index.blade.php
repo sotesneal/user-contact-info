@@ -9,6 +9,6 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 <body>
-    <div id="hello-react"></div>
+    <div id="root"></div>
 </body>
 </html>

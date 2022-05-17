@@ -1,12 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 
-
- function HelloInterns() {
+ export default function HelloInterns() {
     return (
-        <h1>Hello Interns!</h1>
+        <h1>Hello World</h1>
     );
 }
 
-
-ReactDOM.render(<HelloInterns />,document.getElementById("hello-react"));
