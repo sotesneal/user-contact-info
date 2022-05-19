@@ -1,7 +1,11 @@
+import React from "react";
+import Button from "@mui/material/Button";
 
- export default function HelloInterns() {
+export default function HelloInterns() {
     return (
-        <h1>Hello World</h1>
+        <div>
+            <h1>Contact Information</h1>
+            {/* <Button variant="contained">Add User</Button> */}
+        </div>
     );
 }
-
