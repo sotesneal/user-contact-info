@@ -30,6 +30,8 @@ import EditIcon from '@mui/icons-material/Edit';
 import { visuallyHidden } from '@mui/utils';
 // import { create } from '@mui/material/styles/createTransitions';
 
+import SearchBar from "./SearchContact";
+
 function createData(firstname, lastname, deliveryaddress, billingaddress) {
   return {
     firstname,
@@ -204,13 +206,15 @@ const DataTableToolbar = (props) => {
         </Typography>
       )}
 
+      <SearchBar />
+
       {numSelected > 0 ? (
         <Tooltip title="Delete">
           <IconButton>
             <DeleteIcon />
           </IconButton>
         </Tooltip>
-      ) : (
+      ) : (         
         <Tooltip title="Filter list">
           <IconButton>
             <FilterListIcon />
