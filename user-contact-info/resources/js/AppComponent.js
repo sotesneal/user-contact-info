@@ -1,7 +1,7 @@
 import React from "react";
 
 import AddUser from "./components/AddUser";
-import DataTable from "./components/DataTable";
+import ContactListDataTable from "./components/ContactListDataTable";
 import Search from "./components/SearchContact";
 
 export default function AppComponent(){
@@ -9,7 +9,7 @@ export default function AppComponent(){
         <div className="container">
             <h1>Contact Information</h1>
             <AddUser />
-            <DataTable />
+            <ContactListDataTable />
         </div>
     )
 }
