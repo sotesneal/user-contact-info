@@ -41,6 +41,14 @@ const empList = [
         delAddress: "V. Rama Avenue, Guadalupe, Cebu City, Cebu",
         billAddress: "V. Rama Avenue, Guadalupe, Cebu City, Cebu",
     },
+    { fName: 'Max', lName: 'Reyes', delAddress: 'PVB Building, Justice Romualdez Street, Tacloban, Leyte', billAddress: 'PVB Building, Justice Romualdez Street, Tacloban, Leyte'},
+    { fName: 'Shannon', lName: 'Diaz', delAddress: 'A. Pichon St., Davao City, Davao del Sur', billAddress: 'A. Pichon St., Davao City, Davao del Sur'},
+    { fName: 'Jamie', lName: 'Castro', delAddress: '2/F JR Photo Lab Bldg., Quezon Avenue, Cotabato City, Maguindanao', billAddress: '2/F JR Photo Lab Bldg., Quezon Avenue, Cotabato City, Maguindanao'},
+    { fName: 'Alex', lName: 'Sanchez', delAddress: 'F. Cabahug Street, Mabolo, Cebu City, Cebu', billAddress: 'F. Cabahug Street, Mabolo, Cebu City, Cebu'},
+    { fName: 'Sean', lName: 'Martinez', delAddress: 'Estaka, Dipolog, Zamboanga del Norte', billAddress: 'Estaka, Dipolog, Zamboanga del Norte'},
+    { fName: 'Mae', lName: 'Tiu', delAddress: 'CP Garcia Avenue corner M.H. Del Pilar Street, Tagbilaran, Bohol', billAddress: 'CP Garcia Avenue corner M.H. Del Pilar Street, Tagbilaran, Bohol'},
+    { fName: 'Tina', lName: 'Flores', delAddress: 'Masangkay St. Sta Cruz, Manila', billAddress: '584 McArthur Highway, Malanday, Valenzuela, Metro Manila'},
+    { fName: 'Jennifer', lName: 'Ramos', delAddress: 'Las Pinas, Metro Manila', billAddress: '460 Solanda Street Intramuros 1000, Manila'},
 ];
 
 export default function ContactListDataTable() {
@@ -80,7 +88,7 @@ export default function ContactListDataTable() {
                     searchFieldAlignment: "right",
                     searchAutoFocus: true,
                     searchFieldVariant: "standard",
-                    filtering: true,
+                    // filtering: true,
                     paging: true,
                     paginationType: "stepped",
                     showFirstLastPageButtons: false,
@@ -93,65 +101,6 @@ export default function ContactListDataTable() {
             />
         </div>
     );
-  // const columns = ["","First Name", "Last Name", "Delivery Address", "Billing Address"];
-//   const columns = [
-//     {
-//      name: "", // for edit icon column
-//      label: "", 
-//      options: {
-//       filter: false,
-//       sort: false,
-//      }
-//     },
-//     {
-//      name: "firstname",
-//      label: "First Name",
-//      options: {
-//       filter: true,
-//       sort: true,
-//      }
-//     },
-//     {
-//      name: "lastname",
-//      label: "Last Name",
-//      options: {
-//       filter: true,
-//       sort: true,
-//      }
-//     },
-//     {
-//      name: "deliveryaddress",
-//      label: "Delivery Address",
-//      options: {
-//       filter: true,
-//       sort: true,
-//      }
-//     },
-//     {
-//       name: "billingaddress",
-//       label: "Billing Address",
-//       options: {
-//        filter: true,
-//        sort: true,
-//       }
-//      },
-//    ];
-
-//   // Dummy data:
-//   const data = [
-//   ['Juan', 'dela Cruz', 'Fort Bonifacio Global City, Makati City, Metro Manila', 'Fort Bonifacio Global City, Makati City, Metro Manila'],
-//   ['Isagani', 'Vasquez', 'Casa Castelo Bldg., Maharlika Highway, Cabanatuan, Nueva Ecija', 'Casa Castelo Bldg., Maharlika Highway, Cabanatuan, Nueva Ecija'],
-//   ['Sam', 'Santiago', 'Session Road, Baguio, Benguet', 'Prince Building, Makati City, Metro Manila'],
-//   ['Malaya', 'Ignacio', 'V. Rama Avenue, Guadalupe, Cebu City, Cebu', 'V. Rama Avenue, Guadalupe, Cebu City, Cebu'],
-//   ['Max', 'Reyes', 'PVB Building, Justice Romualdez Street, Tacloban, Leyte', 'PVB Building, Justice Romualdez Street, Tacloban, Leyte'],
-//   ['Shannon', 'Diaz', 'A. Pichon St., Davao City, Davao del Sur', 'A. Pichon St., Davao City, Davao del Sur'],
-//   ['Jamie', 'Castro', '2/F JR Photo Lab Bldg., Quezon Avenue, Cotabato City, Maguindanao', '2/F JR Photo Lab Bldg., Quezon Avenue, Cotabato City, Maguindanao'],
-//   ['Alex', 'Sanchez', 'F. Cabahug Street, Mabolo, Cebu City, Cebu', 'F. Cabahug Street, Mabolo, Cebu City, Cebu'],
-//   ['Sean', 'Martinez', 'Estaka, Dipolog, Zamboanga del Norte', 'Estaka, Dipolog, Zamboanga del Norte'],
-//   ['Mae', 'Tiu', 'CP Garcia Avenue corner M.H. Del Pilar Street, Tagbilaran, Bohol', 'CP Garcia Avenue corner M.H. Del Pilar Street, Tagbilaran, Bohol'],
-//   ['Tina', 'Flores', 'Masangkay St. Sta Cruz, Manila', '584 McArthur Highway, Malanday, Valenzuela, Metro Manila'],
-//   ['Jennifer', 'Ramos', 'Las Pinas, Metro Manila', '460 Solanda Street Intramuros 1000, Manila'],
-//   ];
 
 //   // Adding edit icon
 //   for (const arr of data) {
